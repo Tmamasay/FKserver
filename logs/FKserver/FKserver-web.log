@@ -1,0 +1,384 @@
+2018-10-30 16:18:44,565 WARN 12404 [-/127.0.0.1/-/117ms POST /127.0.0.1/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-10-30 16:18:44,573 WARN 12404 [-/127.0.0.1/-/125ms POST /127.0.0.1/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\FKserver\FKserver\node_modules\koa\lib\context.js:96:11)
+    at Object.assertCsrf (F:\FKserver\FKserver\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (F:\FKserver\FKserver\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at F:\FKserver\FKserver\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at session (F:\FKserver\FKserver\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\FKserver\FKserver\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 12404
+hostname: DESKTOP-H7LLNK9
+
+2018-10-30 16:19:22,659 WARN 12404 [-/127.0.0.1/-/1ms POST /127.0.0.1/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-10-30 16:19:22,660 WARN 12404 [-/127.0.0.1/-/3ms POST /127.0.0.1/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\FKserver\FKserver\node_modules\koa\lib\context.js:96:11)
+    at Object.assertCsrf (F:\FKserver\FKserver\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (F:\FKserver\FKserver\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at F:\FKserver\FKserver\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at session (F:\FKserver\FKserver\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\FKserver\FKserver\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 12404
+hostname: DESKTOP-H7LLNK9
+
+2018-10-30 16:55:38,849 WARN 13044 [-/127.0.0.1/-/33ms POST /127.0.0.1/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-10-30 16:55:38,852 WARN 13044 [-/127.0.0.1/-/35ms POST /127.0.0.1/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\FKserver\FKserver\node_modules\koa\lib\context.js:96:11)
+    at Object.assertCsrf (F:\FKserver\FKserver\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (F:\FKserver\FKserver\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at F:\FKserver\FKserver\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at session (F:\FKserver\FKserver\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\FKserver\FKserver\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 13044
+hostname: DESKTOP-H7LLNK9
+
+2018-10-30 16:58:01,547 WARN 12404 [-/127.0.0.1/-/36ms POST /127.0.0.1/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-10-30 16:58:01,552 WARN 12404 [-/127.0.0.1/-/41ms POST /127.0.0.1/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\FKserver\FKserver\node_modules\koa\lib\context.js:96:11)
+    at Object.assertCsrf (F:\FKserver\FKserver\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (F:\FKserver\FKserver\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at F:\FKserver\FKserver\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at session (F:\FKserver\FKserver\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\FKserver\FKserver\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 12404
+hostname: DESKTOP-H7LLNK9
+
+2018-10-30 17:13:35,223 WARN 3736 [-/127.0.0.1/-/31ms POST /127.0.0.1/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-10-30 17:13:35,227 WARN 3736 [-/127.0.0.1/-/35ms POST /127.0.0.1/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\FKserver\FKserver\node_modules\koa\lib\context.js:96:11)
+    at Object.assertCsrf (F:\FKserver\FKserver\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (F:\FKserver\FKserver\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at F:\FKserver\FKserver\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at session (F:\FKserver\FKserver\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\FKserver\FKserver\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 3736
+hostname: DESKTOP-H7LLNK9
+
+2018-10-30 17:35:40,482 WARN 9608 [-/127.0.0.1/-/49ms POST /127.0.0.1/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-10-30 17:35:40,487 WARN 9608 [-/127.0.0.1/-/54ms POST /127.0.0.1/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\FKserver\FKserver\node_modules\koa\lib\context.js:96:11)
+    at Object.assertCsrf (F:\FKserver\FKserver\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (F:\FKserver\FKserver\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at F:\FKserver\FKserver\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at session (F:\FKserver\FKserver\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\FKserver\FKserver\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 9608
+hostname: DESKTOP-H7LLNK9
+
+2018-10-30 17:36:18,049 WARN 13768 [-/127.0.0.1/-/31ms POST /127.0.0.1/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-10-30 17:36:18,053 WARN 13768 [-/127.0.0.1/-/35ms POST /127.0.0.1/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\FKserver\FKserver\node_modules\koa\lib\context.js:96:11)
+    at Object.assertCsrf (F:\FKserver\FKserver\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (F:\FKserver\FKserver\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at F:\FKserver\FKserver\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at session (F:\FKserver\FKserver\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\FKserver\FKserver\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 13768
+hostname: DESKTOP-H7LLNK9
+
+2018-10-30 17:42:43,785 WARN 1568 [-/127.0.0.1/-/35ms POST /127.0.0.1/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-10-30 17:42:43,790 WARN 1568 [-/127.0.0.1/-/39ms POST /127.0.0.1/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\FKserver\FKserver\node_modules\koa\lib\context.js:96:11)
+    at Object.assertCsrf (F:\FKserver\FKserver\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (F:\FKserver\FKserver\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at F:\FKserver\FKserver\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at session (F:\FKserver\FKserver\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\FKserver\FKserver\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 1568
+hostname: DESKTOP-H7LLNK9
+
+2018-10-31 16:29:43,759 WARN 400 [-/127.0.0.1/-/122ms POST /login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-10-31 16:29:43,761 WARN 400 [-/127.0.0.1/-/124ms POST /login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\FKserver\FKserver\node_modules\koa\lib\context.js:96:11)
+    at Object.assertCsrf (F:\FKserver\FKserver\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (F:\FKserver\FKserver\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at F:\FKserver\FKserver\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at session (F:\FKserver\FKserver\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\FKserver\FKserver\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 400
+hostname: DESKTOP-H7LLNK9
+
+2018-10-31 16:30:04,708 WARN 400 [-/127.0.0.1/-/1ms POST /login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-10-31 16:30:04,710 WARN 400 [-/127.0.0.1/-/2ms POST /login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\FKserver\FKserver\node_modules\koa\lib\context.js:96:11)
+    at Object.assertCsrf (F:\FKserver\FKserver\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (F:\FKserver\FKserver\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at F:\FKserver\FKserver\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at session (F:\FKserver\FKserver\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\FKserver\FKserver\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 400
+hostname: DESKTOP-H7LLNK9
+
+2018-10-31 16:30:54,779 WARN 14068 [-/127.0.0.1/-/58ms POST /login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-10-31 16:30:54,786 WARN 14068 [-/127.0.0.1/-/63ms POST /login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\FKserver\FKserver\node_modules\koa\lib\context.js:96:11)
+    at Object.assertCsrf (F:\FKserver\FKserver\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (F:\FKserver\FKserver\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at F:\FKserver\FKserver\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at session (F:\FKserver\FKserver\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\FKserver\FKserver\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 14068
+hostname: DESKTOP-H7LLNK9
+
+2018-10-31 16:31:06,161 WARN 14068 [-/127.0.0.1/-/1ms POST /login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-10-31 16:31:06,162 WARN 14068 [-/127.0.0.1/-/2ms POST /login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\FKserver\FKserver\node_modules\koa\lib\context.js:96:11)
+    at Object.assertCsrf (F:\FKserver\FKserver\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (F:\FKserver\FKserver\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at F:\FKserver\FKserver\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at session (F:\FKserver\FKserver\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\FKserver\FKserver\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 14068
+hostname: DESKTOP-H7LLNK9
+
+2018-10-31 16:31:47,091 WARN 14068 [-/127.0.0.1/-/1ms POST /login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-10-31 16:31:47,093 WARN 14068 [-/127.0.0.1/-/3ms POST /login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\FKserver\FKserver\node_modules\koa\lib\context.js:96:11)
+    at Object.assertCsrf (F:\FKserver\FKserver\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (F:\FKserver\FKserver\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at F:\FKserver\FKserver\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at session (F:\FKserver\FKserver\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\FKserver\FKserver\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 14068
+hostname: DESKTOP-H7LLNK9
+
+2018-11-01 09:37:45,905 WARN 2876 [-/127.0.0.1/-/35ms POST /login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-11-01 09:37:45,908 WARN 2876 [-/127.0.0.1/-/37ms POST /login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\FKserver\FKserver\node_modules\koa\lib\context.js:96:11)
+    at Object.assertCsrf (F:\FKserver\FKserver\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (F:\FKserver\FKserver\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at F:\FKserver\FKserver\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at session (F:\FKserver\FKserver\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\FKserver\FKserver\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 2876
+hostname: DESKTOP-H7LLNK9
+
+2018-11-01 09:38:23,856 WARN 2876 [-/127.0.0.1/-/1ms POST /login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-11-01 09:38:23,857 WARN 2876 [-/127.0.0.1/-/2ms POST /login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\FKserver\FKserver\node_modules\koa\lib\context.js:96:11)
+    at Object.assertCsrf (F:\FKserver\FKserver\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (F:\FKserver\FKserver\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at F:\FKserver\FKserver\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at session (F:\FKserver\FKserver\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\FKserver\FKserver\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 2876
+hostname: DESKTOP-H7LLNK9
+
+2018-11-02 16:25:39,117 WARN 12696 [-/127.0.0.1/-/193ms POST /login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-11-02 16:25:39,129 WARN 12696 [-/127.0.0.1/-/206ms POST /login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\FKserver\FKserver\node_modules\koa\lib\context.js:96:11)
+    at Object.assertCsrf (F:\FKserver\FKserver\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (F:\FKserver\FKserver\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at F:\FKserver\FKserver\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at session (F:\FKserver\FKserver\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\FKserver\FKserver\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 12696
+hostname: DESKTOP-H7LLNK9
+
+2018-11-06 15:33:58,181 WARN 11472 [-/127.0.0.1/-/3ms POST /register] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-11-06 15:33:58,240 WARN 11472 [-/127.0.0.1/-/62ms POST /register] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (F:\FKserver\FKserver\node_modules\koa\lib\context.js:96:11)
+    at Object.assertCsrf (F:\FKserver\FKserver\node_modules\egg-security\app\extend\context.js:148:17)
+    at csrf (F:\FKserver\FKserver\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at F:\FKserver\FKserver\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at session (F:\FKserver\FKserver\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\FKserver\FKserver\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+message: "missing csrf token"
+pid: 11472
+hostname: DESKTOP-H7LLNK9
+
+2018-11-06 15:35:19,308 WARN 11472 [-/127.0.0.1/-/1ms POST /register] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-11-06 15:35:19,309 WARN 11472 [-/127.0.0.1/-/2ms POST /register] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\FKserver\FKserver\node_modules\koa\lib\context.js:96:11)
+    at Object.assertCsrf (F:\FKserver\FKserver\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (F:\FKserver\FKserver\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at F:\FKserver\FKserver\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at session (F:\FKserver\FKserver\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\FKserver\FKserver\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 11472
+hostname: DESKTOP-H7LLNK9
+
+2018-11-06 15:36:05,722 WARN 11472 [-/127.0.0.1/-/231ms POST /login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-11-06 15:36:05,723 WARN 11472 [-/127.0.0.1/-/232ms POST /login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\FKserver\FKserver\node_modules\koa\lib\context.js:96:11)
+    at Object.assertCsrf (F:\FKserver\FKserver\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (F:\FKserver\FKserver\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at F:\FKserver\FKserver\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at session (F:\FKserver\FKserver\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\FKserver\FKserver\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 11472
+hostname: DESKTOP-H7LLNK9
+
+2018-11-06 15:36:50,530 WARN 8012 [-/127.0.0.1/-/40ms POST /login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-11-06 15:36:50,533 WARN 8012 [-/127.0.0.1/-/43ms POST /login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\FKserver\FKserver\node_modules\koa\lib\context.js:96:11)
+    at Object.assertCsrf (F:\FKserver\FKserver\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (F:\FKserver\FKserver\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at F:\FKserver\FKserver\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at session (F:\FKserver\FKserver\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\FKserver\FKserver\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 8012
+hostname: DESKTOP-H7LLNK9
+
+2018-11-06 15:38:22,644 WARN 8012 [-/127.0.0.1/-/2ms POST /login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-11-06 15:38:22,646 WARN 8012 [-/127.0.0.1/-/4ms POST /login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\FKserver\FKserver\node_modules\koa\lib\context.js:96:11)
+    at Object.assertCsrf (F:\FKserver\FKserver\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (F:\FKserver\FKserver\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at F:\FKserver\FKserver\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at session (F:\FKserver\FKserver\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\FKserver\FKserver\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 8012
+hostname: DESKTOP-H7LLNK9
+
+2018-11-06 15:38:27,248 WARN 8012 [-/127.0.0.1/-/1ms POST /login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-11-06 15:38:27,250 WARN 8012 [-/127.0.0.1/-/3ms POST /login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\FKserver\FKserver\node_modules\koa\lib\context.js:96:11)
+    at Object.assertCsrf (F:\FKserver\FKserver\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (F:\FKserver\FKserver\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at F:\FKserver\FKserver\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at session (F:\FKserver\FKserver\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\FKserver\FKserver\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 8012
+hostname: DESKTOP-H7LLNK9
+
+2018-11-06 15:39:51,106 WARN 13020 [-/127.0.0.1/-/1ms POST /register] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-11-06 15:39:51,109 WARN 13020 [-/127.0.0.1/-/5ms POST /register] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\FKserver\FKserver\node_modules\koa\lib\context.js:96:11)
+    at Object.assertCsrf (F:\FKserver\FKserver\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (F:\FKserver\FKserver\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at F:\FKserver\FKserver\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at session (F:\FKserver\FKserver\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\FKserver\FKserver\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 13020
+hostname: DESKTOP-H7LLNK9
+
+2018-11-06 15:41:03,145 WARN 13020 [-/127.0.0.1/-/1ms POST /register] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-11-06 15:41:03,146 WARN 13020 [-/127.0.0.1/-/2ms POST /register] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\FKserver\FKserver\node_modules\koa\lib\context.js:96:11)
+    at Object.assertCsrf (F:\FKserver\FKserver\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (F:\FKserver\FKserver\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at F:\FKserver\FKserver\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at session (F:\FKserver\FKserver\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\FKserver\FKserver\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 13020
+hostname: DESKTOP-H7LLNK9
+

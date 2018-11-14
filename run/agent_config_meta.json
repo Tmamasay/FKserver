@@ -1,0 +1,313 @@
+{
+  "keys": "F:\\FKserver\\FKserver\\config\\config.default.js",
+  "view": {
+    "defaultViewEngine": "F:\\FKserver\\FKserver\\config\\config.default.js",
+    "mapping": {
+      ".html": "F:\\FKserver\\FKserver\\config\\config.default.js"
+    },
+    "root": "F:\\FKserver\\FKserver\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "F:\\FKserver\\FKserver\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "F:\\FKserver\\FKserver\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "mysql": {
+    "client": {
+      "host": "F:\\FKserver\\FKserver\\config\\config.default.js",
+      "port": "F:\\FKserver\\FKserver\\config\\config.default.js",
+      "user": "F:\\FKserver\\FKserver\\config\\config.default.js",
+      "password": "F:\\FKserver\\FKserver\\config\\config.default.js",
+      "database": "F:\\FKserver\\FKserver\\config\\config.default.js"
+    },
+    "app": "F:\\FKserver\\FKserver\\config\\config.default.js",
+    "agent": "F:\\FKserver\\FKserver\\config\\config.default.js",
+    "default": {
+      "database": "F:\\FKserver\\FKserver\\node_modules\\egg-mysql\\config\\config.default.js",
+      "connectionLimit": "F:\\FKserver\\FKserver\\node_modules\\egg-mysql\\config\\config.default.js"
+    }
+  },
+  "security": {
+    "csrf": {
+      "enable": "F:\\FKserver\\FKserver\\config\\config.default.js",
+      "ignoreJSON": "F:\\FKserver\\FKserver\\config\\config.default.js",
+      "useSession": "F:\\FKserver\\FKserver\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "F:\\FKserver\\FKserver\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "F:\\FKserver\\FKserver\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "F:\\FKserver\\FKserver\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "F:\\FKserver\\FKserver\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "F:\\FKserver\\FKserver\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "domainWhiteList": "F:\\FKserver\\FKserver\\config\\config.default.js",
+    "protocolWhiteList": "F:\\FKserver\\FKserver\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "F:\\FKserver\\FKserver\\node_modules\\egg-security\\config\\config.default.js",
+    "xframe": {
+      "enable": "F:\\FKserver\\FKserver\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "F:\\FKserver\\FKserver\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "F:\\FKserver\\FKserver\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "F:\\FKserver\\FKserver\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "F:\\FKserver\\FKserver\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "F:\\FKserver\\FKserver\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "F:\\FKserver\\FKserver\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "F:\\FKserver\\FKserver\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "F:\\FKserver\\FKserver\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "F:\\FKserver\\FKserver\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "F:\\FKserver\\FKserver\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "F:\\FKserver\\FKserver\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "F:\\FKserver\\FKserver\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "F:\\FKserver\\FKserver\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "F:\\FKserver\\FKserver\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "F:\\FKserver\\FKserver\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "F:\\FKserver\\FKserver\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "F:\\FKserver\\FKserver\\config\\config.default.js",
+    "allowMethods": "F:\\FKserver\\FKserver\\config\\config.default.js"
+  },
+  "middleware": "F:\\FKserver\\FKserver\\config\\config.default.js",
+  "session": {
+    "maxAge": "F:\\FKserver\\FKserver\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "F:\\FKserver\\FKserver\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "F:\\FKserver\\FKserver\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "F:\\FKserver\\FKserver\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "helper": {
+    "shtml": "F:\\FKserver\\FKserver\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "F:\\FKserver\\FKserver\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "F:\\FKserver\\FKserver\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "F:\\FKserver\\FKserver\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "F:\\FKserver\\FKserver\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "F:\\FKserver\\FKserver\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "F:\\FKserver\\FKserver\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "F:\\FKserver\\FKserver\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "F:\\FKserver\\FKserver\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "F:\\FKserver\\FKserver\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "F:\\FKserver\\FKserver\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "F:\\FKserver\\FKserver\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "F:\\FKserver\\FKserver\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "F:\\FKserver\\FKserver\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "F:\\FKserver\\FKserver\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "F:\\FKserver\\FKserver\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "F:\\FKserver\\FKserver\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "multipart": {
+    "mode": "F:\\FKserver\\FKserver\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "F:\\FKserver\\FKserver\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "F:\\FKserver\\FKserver\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "F:\\FKserver\\FKserver\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "F:\\FKserver\\FKserver\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "F:\\FKserver\\FKserver\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "F:\\FKserver\\FKserver\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "F:\\FKserver\\FKserver\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "F:\\FKserver\\FKserver\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "F:\\FKserver\\FKserver\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "F:\\FKserver\\FKserver\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "F:\\FKserver\\FKserver\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "F:\\FKserver\\FKserver\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "F:\\FKserver\\FKserver\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "F:\\FKserver\\FKserver\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "F:\\FKserver\\FKserver\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "F:\\FKserver\\FKserver\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "F:\\FKserver\\FKserver\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "F:\\FKserver\\FKserver\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "F:\\FKserver\\FKserver\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "F:\\FKserver\\FKserver\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "F:\\FKserver\\FKserver\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "F:\\FKserver\\FKserver\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "F:\\FKserver\\FKserver\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "F:\\FKserver\\FKserver\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "F:\\FKserver\\FKserver\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "F:\\FKserver\\FKserver\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "F:\\FKserver\\FKserver\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "F:\\FKserver\\FKserver\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "F:\\FKserver\\FKserver\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "ejs": {
+    "root": "F:\\FKserver\\FKserver\\node_modules\\egg-view-ejs\\config\\config.default.js",
+    "cache": "F:\\FKserver\\FKserver\\node_modules\\egg-view-ejs\\config\\config.local.js",
+    "debug": "F:\\FKserver\\FKserver\\node_modules\\egg-view-ejs\\config\\config.default.js",
+    "compileDebug": "F:\\FKserver\\FKserver\\node_modules\\egg-view-ejs\\config\\config.default.js",
+    "delimiter": "F:\\FKserver\\FKserver\\node_modules\\egg-view-ejs\\config\\config.default.js",
+    "strict": "F:\\FKserver\\FKserver\\node_modules\\egg-view-ejs\\config\\config.default.js"
+  },
+  "env": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+  "name": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+    "version": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+    "description": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+    "private": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+      "egg-mysql": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-ejs": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+      "mz-modules": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+      "uuid": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "autod": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+      "autod-egg": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+      "egg-ci": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+      "eslint": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+      "eslint-config-egg": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+      "webstorm-disable-index": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js"
+    },
+    "scripts": {
+      "start": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+      "stop": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+      "dev": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+      "debug": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+      "test": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+      "test-local": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+      "cov": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+      "lint": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+      "ci": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+      "autod": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+      "url": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+    "license": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js"
+  },
+  "baseDir": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+    "strict": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+      "depth": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+    "env": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+    "level": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+    "logging": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+      "port": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js"
+}
