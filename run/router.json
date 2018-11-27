@@ -54,8 +54,45 @@
       "POST"
     ],
     "paramNames": [],
+    "path": "/delImg",
+    "regexp": "/^\\/delImg(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
     "path": "/mnData",
     "regexp": "/^\\/mnData(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/commodinfo",
+    "regexp": "/^\\/commodinfo(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/repertory",
+    "regexp": "/^\\/repertory(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

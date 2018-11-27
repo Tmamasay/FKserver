@@ -41,12 +41,12 @@ config.security = {
     ignoreJSON: true,
   },
   // 白名单
-  domainWhiteList: [ 'http://localhost:5500' ],
+  // domainWhiteList: [ 'http://127.0.0.1:5500' ],
 };
 
 // 允许规则
 config.cors = {
-  origin:'*',//允许跨域
+  origin:'*',//允许跨域 注释允许白名单访问
   allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS',
 };
      

@@ -35,7 +35,7 @@
       "bodyName": "F:\\FKserver\\FKserver\\node_modules\\egg-security\\config\\config.default.js",
       "queryName": "F:\\FKserver\\FKserver\\node_modules\\egg-security\\config\\config.default.js"
     },
-    "domainWhiteList": "F:\\FKserver\\FKserver\\config\\config.default.js",
+    "domainWhiteList": "F:\\FKserver\\FKserver\\node_modules\\egg-security\\config\\config.default.js",
     "protocolWhiteList": "F:\\FKserver\\FKserver\\node_modules\\egg-security\\config\\config.default.js",
     "defaultMiddleware": "F:\\FKserver\\FKserver\\node_modules\\egg-security\\config\\config.default.js",
     "xframe": {
@@ -180,6 +180,7 @@
     "description": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
     "private": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
     "dependencies": {
+      "dayjs": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
       "egg": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
       "egg-cors": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",
       "egg-mysql": "F:\\FKserver\\FKserver\\node_modules\\egg\\config\\config.default.js",

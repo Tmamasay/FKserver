@@ -7,9 +7,7 @@
       "encrypt": true
     },
     "security": {
-      "domainWhiteList": [
-        "http://localhost:5500"
-      ],
+      "domainWhiteList": [],
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
       "csrf": {
@@ -186,6 +184,7 @@
       "description": "FK后台服务",
       "private": true,
       "dependencies": {
+        "dayjs": "^1.7.7",
         "egg": "^2.2.1",
         "egg-cors": "^2.1.1",
         "egg-mysql": "^3.0.0",
@@ -507,7 +506,7 @@
       "optionalDependencies": [],
       "env": [],
       "from": "F:\\FKserver\\FKserver\\config\\plugin.js",
-      "path": "F:\\FKserver\\FKserver\\node_modules\\_egg-cors@2.1.1@egg-cors",
+      "path": "F:\\FKserver\\FKserver\\node_modules\\egg-cors",
       "version": "2.1.1"
     }
   }

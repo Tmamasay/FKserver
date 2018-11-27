@@ -1593,3 +1593,427 @@ name: "ER_DUP_ENTRYError"
 pid: 8396
 hostname: DESKTOP-H7LLNK9
 
+2018-11-20 13:03:47,119 ERROR 7344 nodejs.ClusterClientNoResponseError: client no response in 1753926ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (F:\FKserver\FKserver\node_modules\cluster-client\lib\leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 7344
+hostname: DESKTOP-H7LLNK9
+
+2018-11-22 15:06:23,674 ERROR 14248 [-/127.0.0.1/-/8ms POST /uploadImg] nodejs.EEXISTError: EEXIST: file already exists, mkdir 'F:\FKserver\FKserver\app\public\upload\20181122'
+    at Object.fs.mkdirSync (fs.js:885:18)
+    at UploadController.uploadImg (F:\FKserver\FKserver\app\controller\upload\upload.js:23:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+errno: -4075
+code: "EEXIST"
+syscall: "mkdir"
+path: "F:\\FKserver\\FKserver\\app\\public\\upload\\20181122"
+name: "EEXISTError"
+pid: 14248
+hostname: DESKTOP-H7LLNK9
+
+2018-11-22 15:09:12,744 ERROR 6456 [-/127.0.0.1/-/22ms POST /uploadImg] nodejs.EEXISTError: EEXIST: file already exists, mkdir 'F:\FKserver\FKserver\app\public\upload\20181122'
+    at Object.fs.mkdirSync (fs.js:885:18)
+    at UploadController.uploadImg (F:\FKserver\FKserver\app\controller\upload\upload.js:23:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+errno: -4075
+code: "EEXIST"
+syscall: "mkdir"
+path: "F:\\FKserver\\FKserver\\app\\public\\upload\\20181122"
+name: "EEXISTError"
+pid: 6456
+hostname: DESKTOP-H7LLNK9
+
+2018-11-22 15:09:12,773 ERROR 6456 [-/127.0.0.1/-/4ms POST /uploadImg] nodejs.EEXISTError: EEXIST: file already exists, mkdir 'F:\FKserver\FKserver\app\public\upload\20181122'
+    at Object.fs.mkdirSync (fs.js:885:18)
+    at UploadController.uploadImg (F:\FKserver\FKserver\app\controller\upload\upload.js:23:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+errno: -4075
+code: "EEXIST"
+syscall: "mkdir"
+path: "F:\\FKserver\\FKserver\\app\\public\\upload\\20181122"
+name: "EEXISTError"
+pid: 6456
+hostname: DESKTOP-H7LLNK9
+
+2018-11-22 15:09:12,785 ERROR 6456 [-/127.0.0.1/-/3ms POST /uploadImg] nodejs.EEXISTError: EEXIST: file already exists, mkdir 'F:\FKserver\FKserver\app\public\upload\20181122'
+    at Object.fs.mkdirSync (fs.js:885:18)
+    at UploadController.uploadImg (F:\FKserver\FKserver\app\controller\upload\upload.js:23:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+errno: -4075
+code: "EEXIST"
+syscall: "mkdir"
+path: "F:\\FKserver\\FKserver\\app\\public\\upload\\20181122"
+name: "EEXISTError"
+pid: 6456
+hostname: DESKTOP-H7LLNK9
+
+2018-11-22 15:09:41,548 ERROR 11788 nodejs.EPERMError: Error watching file for changes: EPERM
+    at _errnoException (util.js:1022:11)
+    at FSEvent.FSWatcher._handle.onchange (fs.js:1359:9)
+code: "EPERM"
+errno: "EPERM"
+syscall: "Error watching file for changes:"
+filename: null
+dir: "F:\\FKserver\\FKserver\\app\\public\\upload\\20181122"
+name: "EPERMError"
+pid: 11788
+hostname: DESKTOP-H7LLNK9
+
+2018-11-22 15:14:01,839 ERROR 7360 [-/127.0.0.1/-/15ms POST /uploadImg] nodejs.EEXISTError: EEXIST: file already exists, mkdir 'F:\FKserver\FKserver\app\public\upload\20181122'
+    at Object.fs.mkdirSync (fs.js:885:18)
+    at UploadController.uploadImg (F:\FKserver\FKserver\app\controller\upload\upload.js:24:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+errno: -4075
+code: "EEXIST"
+syscall: "mkdir"
+path: "F:\\FKserver\\FKserver\\app\\public\\upload\\20181122"
+name: "EEXISTError"
+pid: 7360
+hostname: DESKTOP-H7LLNK9
+
+2018-11-22 15:14:01,867 ERROR 7360 [-/127.0.0.1/-/7ms POST /uploadImg] nodejs.EEXISTError: EEXIST: file already exists, mkdir 'F:\FKserver\FKserver\app\public\upload\20181122'
+    at Object.fs.mkdirSync (fs.js:885:18)
+    at UploadController.uploadImg (F:\FKserver\FKserver\app\controller\upload\upload.js:24:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+errno: -4075
+code: "EEXIST"
+syscall: "mkdir"
+path: "F:\\FKserver\\FKserver\\app\\public\\upload\\20181122"
+name: "EEXISTError"
+pid: 7360
+hostname: DESKTOP-H7LLNK9
+
+2018-11-22 15:15:04,044 ERROR 7360 [-/127.0.0.1/-/3ms POST /uploadImg] nodejs.EEXISTError: EEXIST: file already exists, mkdir 'F:\FKserver\FKserver\app\public\upload\20181122'
+    at Object.fs.mkdirSync (fs.js:885:18)
+    at UploadController.uploadImg (F:\FKserver\FKserver\app\controller\upload\upload.js:24:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+errno: -4075
+code: "EEXIST"
+syscall: "mkdir"
+path: "F:\\FKserver\\FKserver\\app\\public\\upload\\20181122"
+name: "EEXISTError"
+pid: 7360
+hostname: DESKTOP-H7LLNK9
+
+2018-11-23 13:11:38,709 ERROR 11844 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 11844
+hostname: DESKTOP-H7LLNK9
+
+2018-11-23 13:51:13,386 ERROR 4656 [-/127.0.0.1/-/163ms POST /delImg] nodejs.ENOENTError: ENOENT: no such file or directory, unlink 'F:\FKserver\FKserver\public\upload\20181123\1542952268580513.png'
+    at Object.fs.unlinkSync (fs.js:1061:18)
+    at body.forEach.imgURL (F:\FKserver\FKserver\app\controller\upload\upload.js:63:9)
+    at Array.forEach (<anonymous>)
+    at UploadController.delImg (F:\FKserver\FKserver\app\controller\upload\upload.js:62:16)
+    at Object.callFn (F:\FKserver\FKserver\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (F:\FKserver\FKserver\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\FKserver\FKserver\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (F:\FKserver\FKserver\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\FKserver\FKserver\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+errno: -4058
+code: "ENOENT"
+syscall: "unlink"
+path: "F:\\FKserver\\FKserver\\public\\upload\\20181123\\1542952268580513.png"
+headers: {"Access-Control-Allow-Origin":"*"}
+name: "ENOENTError"
+pid: 4656
+hostname: DESKTOP-H7LLNK9
+
+2018-11-23 13:53:37,629 ERROR 15676 [-/127.0.0.1/-/44ms POST /delImg] nodejs.ENOENTError: ENOENT: no such file or directory, unlink 'F:\FKserver\FKserver\public\upload\20181123\1542952414513794.png'
+    at Object.fs.unlinkSync (fs.js:1061:18)
+    at body.forEach.imgURL (F:\FKserver\FKserver\app\controller\upload\upload.js:64:9)
+    at Array.forEach (<anonymous>)
+    at UploadController.delImg (F:\FKserver\FKserver\app\controller\upload\upload.js:63:16)
+    at Object.callFn (F:\FKserver\FKserver\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (F:\FKserver\FKserver\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\FKserver\FKserver\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (F:\FKserver\FKserver\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\FKserver\FKserver\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+errno: -4058
+code: "ENOENT"
+syscall: "unlink"
+path: "F:\\FKserver\\FKserver\\public\\upload\\20181123\\1542952414513794.png"
+headers: {"Access-Control-Allow-Origin":"*"}
+name: "ENOENTError"
+pid: 15676
+hostname: DESKTOP-H7LLNK9
+
+2018-11-23 14:05:26,010 ERROR 16228 [-/127.0.0.1/-/34ms POST /delImg] nodejs.ENOENTError: ENOENT: no such file or directory, unlink 'F:\FKserver\FKserver\public\upload\20181123\1542953108808770.jpg'
+    at Object.fs.unlinkSync (fs.js:1061:18)
+    at body.forEach.imgURL (F:\FKserver\FKserver\app\controller\upload\upload.js:64:9)
+    at Array.forEach (<anonymous>)
+    at UploadController.delImg (F:\FKserver\FKserver\app\controller\upload\upload.js:63:16)
+    at Object.callFn (F:\FKserver\FKserver\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (F:\FKserver\FKserver\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\FKserver\FKserver\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (F:\FKserver\FKserver\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\FKserver\FKserver\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+errno: -4058
+code: "ENOENT"
+syscall: "unlink"
+path: "F:\\FKserver\\FKserver\\public\\upload\\20181123\\1542953108808770.jpg"
+headers: {"Access-Control-Allow-Origin":"*"}
+name: "ENOENTError"
+pid: 16228
+hostname: DESKTOP-H7LLNK9
+
+2018-11-23 14:07:09,937 ERROR 14692 [-/127.0.0.1/-/29ms POST /delImg] nodejs.ENOENTError: ENOENT: no such file or directory, unlink 'F:\FKserver\FKserver\public\upload\20181123\1542953228141597.png'
+    at Object.fs.unlinkSync (fs.js:1061:18)
+    at body.forEach.imgURL (F:\FKserver\FKserver\app\controller\upload\upload.js:65:9)
+    at Array.forEach (<anonymous>)
+    at UploadController.delImg (F:\FKserver\FKserver\app\controller\upload\upload.js:64:16)
+    at Object.callFn (F:\FKserver\FKserver\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (F:\FKserver\FKserver\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\FKserver\FKserver\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (F:\FKserver\FKserver\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\FKserver\FKserver\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+errno: -4058
+code: "ENOENT"
+syscall: "unlink"
+path: "F:\\FKserver\\FKserver\\public\\upload\\20181123\\1542953228141597.png"
+headers: {"Access-Control-Allow-Origin":"*"}
+name: "ENOENTError"
+pid: 14692
+hostname: DESKTOP-H7LLNK9
+
+2018-11-23 14:08:42,145 ERROR 16676 [-/127.0.0.1/-/9ms POST /delImg] nodejs.TypeError: Cannot read property 'forEach' of undefined
+    at UploadController.delImg (F:\FKserver\FKserver\app\controller\upload\upload.js:64:16)
+    at Object.callFn (F:\FKserver\FKserver\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (F:\FKserver\FKserver\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\FKserver\FKserver\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (F:\FKserver\FKserver\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\FKserver\FKserver\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at F:\FKserver\FKserver\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at F:\FKserver\FKserver\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 16676
+hostname: DESKTOP-H7LLNK9
+
+2018-11-23 14:14:03,811 ERROR 11844 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 11844
+hostname: DESKTOP-H7LLNK9
+
+2018-11-23 14:30:19,059 ERROR 16936 [-/127.0.0.1/-/4ms POST /delImg] nodejs.ENOENTError: ENOENT: no such file or directory, unlink 'F:\FKserver\FKserver\app\public\upload\20181123\1542954590957947.png'
+    at Object.fs.unlinkSync (fs.js:1061:18)
+    at body.forEach.imgURL (F:\FKserver\FKserver\app\controller\upload\upload.js:68:9)
+    at Array.forEach (<anonymous>)
+    at UploadController.delImg (F:\FKserver\FKserver\app\controller\upload\upload.js:67:16)
+    at Object.callFn (F:\FKserver\FKserver\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (F:\FKserver\FKserver\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\FKserver\FKserver\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (F:\FKserver\FKserver\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\FKserver\FKserver\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+errno: -4058
+code: "ENOENT"
+syscall: "unlink"
+path: "F:\\FKserver\\FKserver\\app\\public\\upload\\20181123\\1542954590957947.png"
+headers: {"Access-Control-Allow-Origin":"*"}
+name: "ENOENTError"
+pid: 16936
+hostname: DESKTOP-H7LLNK9
+
+2018-11-23 16:08:51,187 ERROR 11844 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 11844
+hostname: DESKTOP-H7LLNK9
+
+2018-11-23 18:20:14,710 ERROR 22872 [-/127.0.0.1/-/9ms POST /commodinfo] nodejs.ReferenceError: extName is not defined
+    at CommodController.commodinfo (F:\FKserver\FKserver\app\controller\commod\commod.js:13:18)
+    at Object.callFn (F:\FKserver\FKserver\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (F:\FKserver\FKserver\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\FKserver\FKserver\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (F:\FKserver\FKserver\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\FKserver\FKserver\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at F:\FKserver\FKserver\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at F:\FKserver\FKserver\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 22872
+hostname: DESKTOP-H7LLNK9
+
+2018-11-26 13:05:02,847 ERROR 6408 nodejs.ClusterClientNoResponseError: client no response in 2254339ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (F:\FKserver\FKserver\node_modules\cluster-client\lib\leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 6408
+hostname: DESKTOP-H7LLNK9
+
+2018-11-26 15:17:49,718 ERROR 6408 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6408
+hostname: DESKTOP-H7LLNK9
+
+2018-11-26 16:54:59,469 ERROR 6408 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6408
+hostname: DESKTOP-H7LLNK9
+
+2018-11-27 11:02:09,488 ERROR 5988 [-/127.0.0.1/-/209ms POST /commodinfo] nodejs.ER_DUP_ENTRYError: ER_DUP_ENTRY: Duplicate entry 'A1543287729390' for key 'COM_ID'
+    at Query.Sequence._packetToError (F:\FKserver\FKserver\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\FKserver\FKserver\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (F:\FKserver\FKserver\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (F:\FKserver\FKserver\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (F:\FKserver\FKserver\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\FKserver\FKserver\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (F:\FKserver\FKserver\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    --------------------
+    at Pool.query (F:\FKserver\FKserver\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\FKserver\FKserver\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\FKserver\FKserver\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\FKserver\FKserver\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\FKserver\FKserver\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (F:\FKserver\FKserver\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\FKserver\FKserver\node_modules\co\index.js:65:19)
+    at F:\FKserver\FKserver\node_modules\co\index.js:54:5
+    sql: INSERT INTO `repertory_com`(`COM_ID`, `RE_COLOR`, `RE_SIZE`) VALUES('A1543287729390', 't', '66'), ('A1543287729390', 't', '66'), ('A1543287729390', 't', '66'), ('A1543287729390', 't', '66'), ('A1543287729390', 't', '66'), ('A1543287729390', 't', '66'), ('A1543287729390', 't', '66'), ('A1543287729390', 't', '66'), ('A1543287729390', 't', '66'), ('A1543287729390', 't', '66'), ('A1543287729390', 't', '66'), ('A1543287729390', 't', '66'), ('A1543287729390', 't', '66'), ('A1543287729390', 't', '66'), ('A1543287729390', 't', '66'), ('A1543287729390', 't', '66'), ('A1543287729390', 't', '66'), ('A1543287729390', 't', '66'), ('A1543287729390', 't', '66'), ('A1543287729390', 't', '66')
+code: "ER_DUP_ENTRY"
+errno: 1062
+sqlMessage: "Duplicate entry 'A1543287729390' for key 'COM_ID'"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `repertory_com`(`COM_ID`, `RE_COLOR`, `RE_SIZE`) VALUES('A1543287729390', 't', '66'), ('A1543287729390', 't', '66'), ('A1543287729390', 't', '66'), ('A1543287729390', 't', '66'), ('A1543287729390', 't', '66'), ('A1543287729390', 't', '66'), ('A1543287729390', 't', '66'), ('A1543287729390', 't', '66'), ('A1543287729390', 't', '66'), ('A1543287729390', 't', '66'), ('A1543287729390', 't', '66'), ('A1543287729390', 't', '66'), ('A1543287729390', 't', '66'), ('A1543287729390', 't', '66'), ('A1543287729390', 't', '66'), ('A1543287729390', 't', '66'), ('A1543287729390', 't', '66'), ('A1543287729390', 't', '66'), ('A1543287729390', 't', '66'), ('A1543287729390', 't', '66')"
+headers: {"Access-Control-Allow-Origin":"*"}
+name: "ER_DUP_ENTRYError"
+pid: 5988
+hostname: DESKTOP-H7LLNK9
+
+2018-11-27 11:19:58,435 ERROR 5144 [-/127.0.0.1/-/154ms POST /commodinfo] nodejs.ER_DUP_ENTRYError: ER_DUP_ENTRY: Duplicate entry 'A1543288798306' for key 'COM_ID'
+    at Query.Sequence._packetToError (F:\FKserver\FKserver\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\FKserver\FKserver\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (F:\FKserver\FKserver\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (F:\FKserver\FKserver\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (F:\FKserver\FKserver\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\FKserver\FKserver\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (F:\FKserver\FKserver\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    --------------------
+    at Pool.query (F:\FKserver\FKserver\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\FKserver\FKserver\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\FKserver\FKserver\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\FKserver\FKserver\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\FKserver\FKserver\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (F:\FKserver\FKserver\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\FKserver\FKserver\node_modules\co\index.js:65:19)
+    at F:\FKserver\FKserver\node_modules\co\index.js:54:5
+    sql: INSERT INTO `repertory_com`(`COM_ID`, `RE_COLOR`, `RE_SIZE`) VALUES('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r')
+code: "ER_DUP_ENTRY"
+errno: 1062
+sqlMessage: "Duplicate entry 'A1543288798306' for key 'COM_ID'"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `repertory_com`(`COM_ID`, `RE_COLOR`, `RE_SIZE`) VALUES('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r'), ('A1543288798306', '5', 'r')"
+headers: {"Access-Control-Allow-Origin":"*"}
+name: "ER_DUP_ENTRYError"
+pid: 5144
+hostname: DESKTOP-H7LLNK9
+
+2018-11-27 13:24:36,102 ERROR 6220 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6220
+hostname: DESKTOP-H7LLNK9
+
+2018-11-27 13:47:21,691 ERROR 11668 [-/127.0.0.1/-/89ms POST /commodinfo] nodejs.ReferenceError: alert is not defined
+    at CommodController.commodinfo (F:\FKserver\FKserver\app\controller\commod\commod.js:39:7)
+    at Object.callFn (F:\FKserver\FKserver\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (F:\FKserver\FKserver\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\FKserver\FKserver\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (F:\FKserver\FKserver\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\FKserver\FKserver\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at F:\FKserver\FKserver\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (F:\FKserver\FKserver\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at F:\FKserver\FKserver\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 11668
+hostname: DESKTOP-H7LLNK9
+
+2018-11-27 14:24:51,511 ERROR 6220 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6220
+hostname: DESKTOP-H7LLNK9
+
+2018-11-27 15:54:29,486 ERROR 6220 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6220
+hostname: DESKTOP-H7LLNK9
+
+2018-11-27 17:55:14,728 ERROR 6220 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6220
+hostname: DESKTOP-H7LLNK9
+

@@ -4,6 +4,7 @@
   "description": "FK后台服务",
   "private": true,
   "dependencies": {
+    "dayjs": "^1.7.7",
     "egg": "^2.2.1",
     "egg-cors": "^2.1.1",
     "egg-mysql": "^3.0.0",
